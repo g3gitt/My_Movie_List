@@ -26,7 +26,7 @@ int main()
 	cout << target<<endl;
 
 	string inp;
-	cin >> inp;
+	std::getline(cin,inp);
 	if (inp == "cool") {
 		break;
 	}
